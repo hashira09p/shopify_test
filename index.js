@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const port = process.env.PORT;
 
 app.get("/", (req, res) => {
-  res.render("index.ejs");
+  res.render("login.ejs");
 })
 
 app.listen(port, () => {
